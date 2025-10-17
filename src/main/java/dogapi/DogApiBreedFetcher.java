@@ -50,9 +50,5 @@ public class DogApiBreedFetcher implements BreedFetcher {
         } catch (IOException | JSONException e) {
             throw new BreedNotFoundException(breed + "not found");
         }
-
-
-        // return statement included so that the starter code can compile and run
-        // return new ArrayList<>();
     }
 }
